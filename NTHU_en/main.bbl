@@ -1,0 +1,46 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{_sppmg/tw_thesis_template_????}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{TW}\_Thesis\_Template - The {LaTeX} Template for Thesis}
+      \field{title}{sppmg/{TW}\_Thesis\_Template}
+      \field{titleaddon}{{GitHub}}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/sppmg/.mozilla/firefox/onxyd4fz.zoteroDemo/zotero/storage/73ZETBNK/TW_Thesis_Template.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/sppmg/TW_Thesis_Template
+      \endverb
+      \verb{url}
+      \verb https://github.com/sppmg/TW_Thesis_Template
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

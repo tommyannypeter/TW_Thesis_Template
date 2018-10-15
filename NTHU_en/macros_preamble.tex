@@ -8,7 +8,9 @@
 % blindtext is used to generating dummy text for testing.
 % see https://texblog.org/2011/02/26/generating-dummy-textblindtext-with-latex-for-testing/
 % \RequirePackage{blindtext}
-
+\RequirePackage{zhnumber}  % 之前的數字問題
+\xeCJKDeclareSubCJKBlock{cjkO}{ `〇 }
+\setCJKsansfont[cjkO=MingLiU]{\CJKsansfont}
 
 % Load packages after ``hyperref''
 \def\macrosAfterHyperref{
