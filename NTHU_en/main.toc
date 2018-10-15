@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {5.1.1}Subsection name}{11}{subsection.5.1.1}
 \contentsline {subsubsection}{\numberline {5.1.1.1}Subsubsection name}{11}{subsubsection.5.1.1.1}
 \contentsline {paragraph}{\numberline {5.1.1.1.1}Paragraph name}{11}{paragraph.5.1.1.1.1}
-\contentsline {subparagraph}{Subparagraph name}{11}{subparagraph*.15}
+\contentsline {subparagraph}{Subparagraph name}{11}{subparagraph*.16}
 \contentsline {chapter}{\numberline {6}Test demo}{13}{chapter.6}
 \contentsline {chapter}{\numberline {7}figure}{15}{chapter.7}
 \contentsline {section}{\numberline {7.1}Insert single figure(by sppmg's tool)}{15}{section.7.1}
@@ -24,7 +24,7 @@
 \contentsline {chapter}{\numberline {8}Table}{17}{chapter.8}
 \contentsline {section}{\numberline {8.1}Simple table}{17}{section.8.1}
 \contentsline {section}{\numberline {8.2}Auto break line table}{17}{section.8.2}
-\contentsline {chapter}{Bibliography}{19}{chapter*.20}
+\contentsline {chapter}{Bibliography}{19}{chapter*.21}
 \ttl@change@i {\@ne }{chapter}{\tocNumSpaceC@Before }{\tocStyleChapterAboveApp }{\tocStyleChapterFont \makebox [\tocNumSpaceC@Total ][l]{\thecontentslabel@chapter@app }}{\tocStyleChapterFont }{\tocStyleChapterFiller }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \contentsline {chapter}{\numberline {A}List of device}{21}{appendix.A}

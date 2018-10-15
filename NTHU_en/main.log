@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.9.10)  15 OCT 2018 15:19
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.9.10)  15 OCT 2018 15:22
 entering extended mode
 **./main.tex
 (main.tex
@@ -2878,6 +2878,12 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 Chapter 2.
 
 LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 8.
+
+File: ./figures/ATLAS.jpg Graphic file (type bmp)
+<./figures/ATLAS.jpg>
+
+LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 12.
 
 File: ./figures/ID.jpg Graphic file (type bmp)
@@ -2888,6 +2894,10 @@ Underfull \vbox (badness 3579) has occurred while \output is active []
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [3]
+File: ./figures/nthu-logo.pdf Graphic file (type pdf)
+<use ./figures/nthu-logo.pdf>
+
+[4]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 18.
@@ -2895,9 +2905,6 @@ LaTeX Warning: No positions in optional float specifier.
 File: ./figures/Calorimeter.jpg Graphic file (type bmp)
 <./figures/Calorimeter.jpg>
 ) (chapter_result.tex
-File: ./figures/nthu-logo.pdf Graphic file (type pdf)
-<use ./figures/nthu-logo.pdf>
- [4]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [5]
@@ -3264,11 +3271,12 @@ chapter_introduction.tex
 chapter_atlas_detector.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
+./figures/ATLAS.jpg
 ./figures/ID.jpg
+./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/Calorimeter.jpg
 chapter_result.tex
-./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 chapter_conclusion.tex
@@ -3311,8 +3319,14 @@ lstlang2.sty    2018/09/02 1.7 listings language file
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8DB3F86204B4628920FEC4B09D126002.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 8DB3F86204B4628920FEC4B09D126002
+(rerunfilecheck)             After:  083DC5B722ED58F3CCE67EB13C54F92F.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.74pt have occurred.
@@ -3325,10 +3339,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50360 strings out of 427798
- 994290 string characters out of 3147828
- 1464033 words of memory out of 3000000
- 53622 multiletter control sequences out of 15000+200000
+ 50365 strings out of 427798
+ 994382 string characters out of 3147828
+ 1465096 words of memory out of 3000000
+ 53626 multiletter control sequences out of 15000+200000
  542350 words of font info for 126 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  68i,18n,98p,1151b,4695s stack positions out of 5000i,500n,10000p,200000b,50000s
