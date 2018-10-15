@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.9.10)  15 OCT 2018 15:12
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.9.10)  15 OCT 2018 15:18
 entering extended mode
 **./main.tex
 (main.tex
@@ -2368,7 +2368,14 @@ File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
 \@quotelevel=\count484
 \@quotereset=\count485
- (main.aux)
+ (main.aux
+
+LaTeX Warning: Label `!hbt' multiply defined.
+
+
+LaTeX Warning: Label `!hbt@cref' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -2783,7 +2790,7 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 
 ] (chapter_introduction.tex
 Chapter 1.
-) (chapter_method.tex
+) (chapter_atlas_detector.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [1
@@ -2795,17 +2802,28 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 
 ]
 Chapter 2.
-) (chapter_result.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 12.
+
+File: ./figures/ID.jpg Graphic file (type bmp)
+<./figures/ID.jpg>
+
+Underfull \vbox (badness 3579) has occurred while \output is active []
+
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [3]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 18.
+
+File: ./figures/Calorimeter.jpg Graphic file (type bmp)
+<./figures/Calorimeter.jpg>
+) (chapter_result.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [4
-
-]
-Chapter 3.
-) (chapter_conclusion.tex
+ [4]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [5]
@@ -2814,8 +2832,8 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
  [6
 
 ]
-Chapter 4.
-) (chapter_template_demo.tex
+Chapter 3.
+) (chapter_conclusion.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [7]
@@ -2824,22 +2842,32 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
  [8
 
 ]
-Chapter 5.
+Chapter 4.
+) (chapter_template_demo.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-[9]
+ [9]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [10
 
 ]
-Chapter 6.
+Chapter 5.
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
 [11]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [12
+
+]
+Chapter 6.
+File: ./figures/nthu-logo.pdf Graphic file (type pdf)
+<use ./figures/nthu-logo.pdf>
+[13]
+File: ./figures/nthu-logo.pdf Graphic file (type pdf)
+<use ./figures/nthu-logo.pdf>
+ [14
 
 ]
 Chapter 7.
@@ -2853,20 +2881,20 @@ File: ./figures/fig3.png Graphic file (type bmp)
 <./figures/fig3.png>
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-[13]
+[15]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [14]
+ [16]
 Chapter 8.
 )
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [15
+ [17
 
 ]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [16
+ [18
 
 ] (bibliography.tex
 *************************************************
@@ -2878,32 +2906,32 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 ) (appendix_device.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [17
+ [19
 
 ]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [18
+ [20
 
 ]
 Appendix A.
 ) (appendix_solution.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [19]
+ [21]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [20
+ [22
 
 ]
 Appendix B.
 ) (appendix_codes.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [21]
+ [23]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [22
+ [24
 
 ]
 Appendix C.
@@ -2945,7 +2973,7 @@ Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;
  (codes/hello_world_idl.pro))
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [23]
+ [25]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
  (main.aux)
@@ -3159,10 +3187,14 @@ abbreviation.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 chapter_introduction.tex
-chapter_method.tex
+chapter_atlas_detector.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
+./figures/ID.jpg
+./figures/nthu-logo.pdf
+./figures/Calorimeter.jpg
 chapter_result.tex
+./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 chapter_conclusion.tex
@@ -3206,22 +3238,25 @@ lstlang2.sty    2018/09/02 1.7 listings language file
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3C13DD134ED00B7C367431D48D944B44.
+(rerunfilecheck)             Checksum: 8DB3F86204B4628920FEC4B09D126002.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50319 strings out of 427798
- 993825 string characters out of 3147828
- 1464558 words of memory out of 3000000
- 53594 multiletter control sequences out of 15000+200000
+ 50331 strings out of 427798
+ 994097 string characters out of 3147828
+ 1464955 words of memory out of 3000000
+ 53604 multiletter control sequences out of 15000+200000
  539987 words of font info for 107 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  68i,18n,98p,1151b,4695s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (41 pages).
+Output written on main.pdf (43 pages).
