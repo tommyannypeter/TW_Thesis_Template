@@ -35,7 +35,7 @@ The main background processes of the analysis are $Z$($\nu\nu$) + jets, $W$($l\n
 
 To constrain these background, the control region (CR) strategy is used. Before defining the CR, the signal region (SR) is defined as where the signals are expected to show. The SR is required to have no lepton based on the model. Then the CR is defined as the orthogonal region to the SR. Exploiting the similar kinematics, the CRs use some better-measured processes in order to constrain the background. There are two CRs in this analysis, the 1-lepton CR and the 2-lepton CR. The 1-lepton CR contains two processes, $W$($l\nu$) + jets and $t\bar{t}$, constraining the same processes in the SR. It requires different number of misidentified lepton, for $W$($l\nu$) + jets, one misidentified lepton in the SR but none in the 1-lepton CR, and for $t\bar{t}$, two misidentified leptons in the SR but one in the 1-lepton CR. The 2-lepton CR exploits the $Z$($ll$) + jets, constraining the $Z$($\nu\nu$) + jets process.
 
-\section{Object Reconstruction}
+\section{Object Reconstruction and Selection}
 \subsection{Jets}
 Jets are a method to describe hadronic showers in detectors, consisting of multiple objects. Jets are reconstructed with the anti-$k_t$ algorithm. Depending on the toplogical clusters, the radius parameter of $R = 0.4$ is the small-radius (small-$R$) jets and of $R = 1.0$ is the large-radius (large-$R$) jets.
 
@@ -48,9 +48,13 @@ R \to R_{eff}(p_T) \approx \frac{\rho}{p_T}
 where $\rho$ is a constant factor. There are also two additional parameters, $R_{min}$ and $R_{max}$, as the radius boundary cut. The optimal values are respectively $\rho = 30 GeV$, $R_{min} = 0.02$ and $R_{max} = 0.4$.
 
 \subsection{Leptons}
+Electrons are reconstructed with energy deposits in the EM calorimeter which matches tracks in the ID. Besides the basic reconstruction, there are two types of electrons for the further selection in the analysis, the baseline electrons and the signal electrons. The baseline electrons have a loose criterion with $\left|\eta\right| < 2.47$ and $p_T < 7 GeV$, used for electron vetoes. For the events containing electrons, the signal electrons require $\left|\eta\right| < 2.47$ and $p_T < 27 GeV$.
+
+The muon reconstruction relies on the muon spectrometer in the range of $\left|\eta\right| < 2.7$. It's also claimed to match the tracks in the ID for $\left|\eta\right| < 2.5$. Like electrons, there are two categories of muons, the baseline muons and the signal muons. The baseline muons are used for vetoing events in certain regions, requiring $\left|\eta\right| < 2.7$ and $p_T < 7 GeV$. The signal muons are defined with the criterion of $\left|\eta\right| < 2.5$ and $p_T < 25 GeV$ for the events which contain muons.
+
+Because of the hadronic-like nature of taus, the reconstruction is complex and is described in Reference[]. For the tau vetoes in the analysis, the taus are required to have one or three tracks and have $\left|\eta\right| < 2.5$ and $p_T < 20 GeV$, excluding the crack region $1.37 < \left|\eta\right| < 1.52$.
 
 \subsection{Missing Transverse Momentum}
-
 
 \section{Event Selection}
 hey
