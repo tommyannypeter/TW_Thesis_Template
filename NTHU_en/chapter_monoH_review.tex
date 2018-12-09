@@ -33,7 +33,7 @@ The main background processes of the analysis are $Z$($\nu\nu$) + jets, $W$($l\n
 	\label{fig:label}
 \end{figure}
 
-To constrain these background, the control region (CR) strategy is used. Before defining the CR, the signal region (SR) is defined as where the signals are expected to show. The SR is required to have no lepton based on the model. Then the CR is defined as the orthogonal region to the SR. Exploiting the similar kinematics, the CRs use some better-measured processes in order to constrain the background. There are two CRs in this analysis, the 1-lepton CR and the 2-lepton CR. The 1-lepton CR contains two processes, $W$($l\nu$) + jets and $t\bar{t}$, constraining the same processes in the SR. It requires different number of misidentified lepton, for $W$($l\nu$) + jets, one misidentified lepton in the SR but none in the 1-lepton CR, and for $t\bar{t}$, two misidentified leptons in the SR but one in the 1-lepton CR. The 2-lepton CR exploits the $Z$($ll$) + jets, constraining the $Z$($\nu\nu$) + jets process.
+To constrain these background, the control region (CR) strategy is used. Before defining the CR, the signal region (SR) is defined as where the signals are expected to show. The SR is required to have no lepton based on the model. Then the CR is defined as the orthogonal region to the SR. Exploiting the similar kinematics, the CRs use some better-measured processes in order to constrain the background. There are two CRs in this analysis, the 1-lepton CR and the 2-lepton CR. The 1-lepton CR contains two processes, $W$($l\nu$) + jets and $t\bar{t}$, constraining the same processes in the SR. It requires different number of misidentified leptons, for $W$($l\nu$) + jets, one misidentified lepton in the SR but none in the 1-lepton CR, and for $t\bar{t}$, two misidentified leptons in the SR but one in the 1-lepton CR. The 2-lepton CR exploits the $Z$($ll$) + jets, constraining the $Z$($\nu\nu$) + jets process.
 
 \section{Object Reconstruction and Selection}
 \subsection{Jets}
@@ -62,13 +62,57 @@ Furthermore, to recognize whether the MET is from weakly interacting particles o
 \section{Event Selection}
 All the event data are from the proton-proton collision at $\sqrt{s} = 13 TeV$, recorded by the ATLAS detector during 2015, 2016 and 2017. Only data passed good operating conditions are used for the data quality. The integrated luminosity is $79.8 \pm 1.6 fb^{-1}$ in the analysis.
 
-The SR is divided into two parts, the resolved region ($E^{miss}_T < 500 GeV$) and the merged region ($E^{miss}_T > 500 GeV$), for different event selection requirements. As previously mentioned in 3.2, to be the comparison of the SR, the CRs are also divided into two divisions with the $p_T$ of the vector boson ($W$ or $Z$) as the separation boundary ($p^V_T < 500 GeV$ for the resolved region and $p^V_T > 500 GeV$ for the merged region). The total event selection will be summarized in Table 3.1.
+To meet the lepton conditions of the SR and the CRs, the events with no lepton, with exactly one signal muon, and with exactly two baseline leptons of which at least one is a signal lepton, are respectively accepted in SR, CR1 and CR2. The SR is divided into two parts, the resolved region ($E^{miss}_T < 500 GeV$) and the merged region ($E^{miss}_T > 500 GeV$), for different event selection requirements. As previously mentioned in 3.2, to be the comparison of the SR, the CRs are also divided into two divisions with the $p_T$ of the vector boson ($W$ or $Z$) as the separation boundary ($p^V_T < 500 GeV$ for the resolved region and $p^V_T > 500 GeV$ for the merged region). The total event selection will be briefly summarized in Table 3.1.
 
 The events are required to be done some common selections in both the resolved and merged regions. They have to pass the lowest un-prescaled triggers and have at least one reconstructed vertex with at least two associated tracks with $p_T > 0.4 GeV$. To suppress the non-collision processes, the events are not allowed to have any tau lepton and are selected if $E^{miss}_T > 150 GeV$ in the SR and $p^V_T > 150 GeV$ in the CRs. Moreover, in order to reduce the multi-jet processes, two conditions are applied. First, the azimuthal angular difference between $E^{miss}_T$ and the three highest small-$R$ jets (min$\Delta\phi(E^{miss}_T, jets_{1, 2, 3})$) is required to be larger than $20^\circ$. Second, the azimuthal angular difference between the direction of $E^{miss}_T$ and $p^{miss}_T$ ($\Delta\phi(E^{miss}_T, p^{miss}_T)$) is required to less than $90^\circ$. In addition, $H_T$ ratio cut is performed to reduce the $t\bar{t}$ background, which is referred in [].
 
-In the resolved region, there are at least two central small-$R$ jets in the events. Exactly two of the jets are $b$-tagged and at least one of them have $p_T > 45 GeV$. The two $b$-tagged jets consist the Higgs boson candidate and their mass is required to be $50 < m_{jj} < 280 GeV$. The scalar $p_T$ sum of first two (three) jets has to larger than $120 (150) GeV$ for the events with two (three or more) jets. To further suppress the multi-jet background, the azimuthal difference between the Higgs boson candidate and $E^{miss}_T$ ($\Delta\phi(E^{miss}_T, h)$) is required to be less than $120^\circ$. The azimuthal difference between the two jets which form the Higgs boson candidate ($\Delta\phi(jet_1, jet_2)$) is required to be less than $140^\circ$ and the ${\Delta}R$ between them to be less than $1.8$. In the SR and the CR1, the object-based MET significance is applied to be larger than $16$. Otherwise, the event-based MET significance is applied to be less than $3.5$ in the CR2. The event-based MET significance is defined as $E^{miss}_T/\sqrt{{\sum}p^l_T+{\sum}p^{jet}_T}$.
+In the resolved region, there are at least two central small-$R$ jets in the events. Exactly two of the jets are $b$-tagged and at least one of them have $p_T > 45 GeV$. The two $b$-tagged jets consist the Higgs boson candidate and their mass is required to be $50 < m_{jj} < 280 GeV$. The scalar $p_T$ sum of first two (three) jets has to larger than $120 (150) GeV$ for the events with two (three or more) jets. To further suppress the multi-jet background, the azimuthal difference between the Higgs boson candidate and $E^{miss}_T$ ($\Delta\phi(E^{miss}_T, h)$) is required to be larger than $120^\circ$. The azimuthal difference between the two jets which form the Higgs boson candidate ($\Delta\phi(jet_1, jet_2)$) is required to be less than $140^\circ$ and the ${\Delta}R$ between them to be less than $1.8$. In the SR and the CR1, the object-based MET significance is applied to be larger than $16$. Otherwise, the event-based MET significance is applied to be less than $3.5$ in the CR2. The event-based MET significance is defined as $E^{miss}_T/\sqrt{{\sum}p^l_T+{\sum}p^{jet}_T}$.
 
 In the merged region, it is required that to have at least one central large-$R$ jet of which the leading one is associated with two leading $b$-tagged VR track jets. The events with any $b$-tagged VR track jet outside the large-$R$ jet are vetoed. The large-$R$ jet is the Higgs boson candidate and the mass is required to be $50 < m_{J} < 270 GeV$ which is different from that in the resolved region.
+
+\begin{table}[!h]
+	\centering
+	\begin{tabularx}{1\textwidth}{ |
+			>{\setlength\hsize{1\hsize}\centering}X|>{\setlength\hsize{1\hsize}\centering}X| } 
+		\hline
+		Resolved Region  & Merged Region \tabularnewline
+		\hline \hline
+		\multicolumn{2}{|c|}{number of leptons = 0 (SR), 1 (CR1), 2 (CR2)} \tabularnewline
+		\hline
+		\multicolumn{2}{|c|}{lowest un-prescaled triggers, vertex requirement} \tabularnewline
+		\hline
+		$150 < E^{miss}_T$ (SR), $p^V_T$ (CRs) $ < 500 GeV$ & $E^{miss}_T$ (SR), $p^V_T$ (CRs) $ > 500 GeV$ \tabularnewline
+		\hline
+		\multicolumn{2}{|c|}{$\tau$-veto} \tabularnewline
+		\hline
+		\multicolumn{2}{|c|}{min$\Delta\phi(E^{miss}_T, jets_{1, 2, 3}) > 20^\circ$} \tabularnewline
+		\hline
+		\multicolumn{2}{|c|}{$\Delta\phi(E^{miss}_T, p^{miss}_T) < 90^\circ$} \tabularnewline
+		\hline
+		\multicolumn{2}{|c|}{$H_T$ ratio cut} \tabularnewline
+		\hline
+		number of central small-$R$ jets = 2 & number of central large-$R$ jets = 1 \tabularnewline
+		\hline
+		$p^{jet_1}_T > 45 GeV \parallel p^{jet_2}_T > 45 GeV$ & - \tabularnewline
+		 \hline
+		2 $b$-tagged small-$R$ jets & 2 $b$-tagged VR track jets \tabularnewline
+		\hline
+		$50 < m_{jj} < 280 GeV$ & $50 < m_{J} < 270 GeV$ \tabularnewline
+		\hline
+		$\sum_{i = 1}^{2(3)} p^{jet_i}_T > 120 (150) GeV$ & - \tabularnewline
+		\hline
+		$\Delta\phi(E^{miss}_T, h) > 120^\circ$ & - \tabularnewline
+		\hline
+		$\Delta\phi(jet_1, jet_2) < 140^\circ$& - \tabularnewline
+		\hline
+		${\Delta}R < 1.8$ & - \tabularnewline
+		\hline
+		MET significance cut& - \tabularnewline
+		\hline
+	\end{tabularx}
+	\caption{The summary of the event selection.}
+	\label{table:summary_event_selection}
+\end{table}
 
 \section{Systematic Uncertainty}
 
