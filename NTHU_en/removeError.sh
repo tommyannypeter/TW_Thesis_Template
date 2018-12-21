@@ -1,0 +1,15 @@
+rm main.aux
+rm main.bbl
+rm main.bcf
+rm main.blg
+rm main.lof
+rm main.log
+rm main.lot
+rm main.out
+rm main.pdf
+rm main.run.xml
+rm main.sta
+rm main.synctex.gz
+rm main.tdo
+rm main.toc
+rm @@out=main.sta
