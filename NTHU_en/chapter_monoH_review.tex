@@ -3,8 +3,8 @@
 
 \chapter{The MonoH Analysis}
 \label{chap:MonoH_Analysis}
-\section{Background Estimation Strategy}
-The main background processes of the analysis are $Z$($\nu\nu$) + jets, $W$($l\nu$) + jets and $t\bar{t}$, shown in \cref{fig:Bkg-Processes}. In the $Z$($\nu\nu$) + jets process, the undetectable neutrinos in the final state are regarded as the missing energy. Thus once the jets are tagged as $b$-jets, the case will be background. In the $W$($l\nu$) + jets process, once the lepton is misidentified as the missing energy and the jets are tagged as $b$-jets as mentioned previously, the procedure will be interference as well. In the $t\bar{t}$ case, if both the leptons are misidentified, the process will be background.
+The signature of the DM model is large transverse missing energy with two $b$-quarks, as shown in \cref{fig:DM-Model}. However, while the transverse missing energy goes larger, these two $b$-quarks go closer to each other in topology. Thus the the resolved region and the merged region are defined for lower and higher missing transverse energy respectively. These two regions use different object reconstruction and event selections, described in the following.
+Some SM processes show the same signature of the DM model, becoming the background in the analysis. The main background processes of the analysis are $Z$($\nu\nu$) + jets, $W$($l\nu$) + jets and $t\bar{t}$, shown in \cref{fig:Bkg-Processes}. In the $Z$($\nu\nu$) + jets process, the undetectable neutrinos in the final state are regarded as the missing energy. Thus once the jets are tagged as $b$-jets, the case will be background. In the $W$($l\nu$) + jets process, once the lepton is misidentified as the missing energy and the jets are tagged as $b$-jets as mentioned previously, the procedure will be interference as well. In the $t\bar{t}$ case, if both the leptons are misidentified, the process will be background.
 
 \begin{figure}[!hbt]
 	\captionsetup[subfigure]{labelformat=empty}
@@ -27,7 +27,8 @@ The main background processes of the analysis are $Z$($\nu\nu$) + jets, $W$($l\n
 	\label{fig:Bkg-Processes}
 \end{figure}
 
-To constrain these background, the control region (CR) strategy is used. Before defining the CR, the signal region (SR) is defined as where the signals are expected to show. The SR is required to have no lepton based on the model. Then the CR is defined as the orthogonal region to the SR. There are two CRs in this analysis, the one-muon CR and the two-lepton CR. The one-muon CR contains two processes, $W$($\mu\nu$) + jets and $t\bar{t}$, constraining $W$($l\nu$) + jets and $t\bar{t}$ in the SR. It requires different number of misidentified leptons, for $W$($l\nu$) + jets, one misidentified lepton in the SR but none in the one-muon CR, and for $t\bar{t}$, two misidentified leptons in the SR but one in the one-muon CR. The two-lepton CR exploits the $Z$($ll$) + jets, constraining the $Z$($\nu\nu$) + jets process. Because it is not easy to simulate the misidentification as well as the kinematics of invisible neutrinos, these two CRs can constrain the background processes well.
+\section{Background Estimation Strategy}
+To constrain the backgrounds, the control region (CR) strategy is used. Before defining the CR, the signal region (SR) is defined as where the signals are expected to show. The SR is required to have no lepton based on the model. Then the CR is defined as the orthogonal region to the SR. There are two CRs in this analysis, the one-muon CR and the two-lepton CR. The one-muon CR contains two processes, $W$($\mu\nu$) + jets and $t\bar{t}$, constraining $W$($l\nu$) + jets and $t\bar{t}$ in the SR. It requires different number of misidentified leptons, for $W$($l\nu$) + jets, one misidentified lepton in the SR but none in the one-muon CR, and for $t\bar{t}$, two misidentified leptons in the SR but one in the one-muon CR. The two-lepton CR exploits the $Z$($ll$) + jets, constraining the $Z$($\nu\nu$) + jets process. Because it is not easy to simulate the misidentification as well as the kinematics of invisible neutrinos, these two CRs can constrain the background processes well.
 
 \section{Object Reconstruction and Selection}
 \subsection{Jets}
@@ -51,7 +52,7 @@ Because of the hadronic-like nature of taus, the reconstruction is complicated a
 \subsection{Missing Transverse Momentum}
 The missing transverse momentum is determined as the negative vector sum of the transverse momentum of all the reconstructed and calibrated objects in an event. Additionally, the track-based soft term is added into the missing transverse momentum in the analysis, which is from the tracks that not associated with any reconstructed object but still linked to the primary vertex. The absolute value of the missing transverse momentum is expressed as $E^{miss}_T$. Also, there is a purely track-based missing transverse momentum calculated as the negative vector sum of the transverse momentum of all the reconstructed tracks associated with the primary vertex. The absolute value of the track-based missing transverse momentum is denoted as $p^{miss}_T$.
 
-Furthermore, to recognize whether the $E^{miss}_T$ is from weakly interacting particles or from the mis-measurement of multi-jet processes, two kinds of the $E^{miss}_T$ significance are applied. One is the event-based $E^{miss}_T$ significance which is defined as $E^{miss}_T/\sqrt{{\sum}p^lepton_T+{\sum}p^{jet}_T}$ and performed in the previous monoHbb analysis\cite{Meehan:2225941}, and the other is the object-based $E^{miss}_T$ significance which is newly introduced in the analysis, in order to reject multi-jet backgrounds. The object-based $E^{miss}_T$ significance is defined in \cite{ATLAS-CONF-2018-038}.
+Furthermore, to recognize whether the $E^{miss}_T$ is from weakly interacting particles or from the mis-measurement of multi-jet processes, two kinds of the $E^{miss}_T$ significance are applied. One is the event-based $E^{miss}_T$ significance which is defined as $E^{miss}_T/\sqrt{{\sum}p^{lepton}_T+{\sum}p^{jet}_T}$ and performed in the previous monoH analysis\cite{Meehan:2225941}, and the other is the object-based $E^{miss}_T$ significance which is newly introduced in the analysis, in order to reject multi-jet backgrounds. The object-based $E^{miss}_T$ significance is defined in \cite{ATLAS-CONF-2018-038}.
 
 \section{Event Selection}
 All the event data are from the proton-proton collision at $\sqrt{s} = 13 TeV$, recorded by the ATLAS detector during 2015, 2016 and 2017. Only data passed good operating conditions are used for the data quality. The integrated luminosity is $79.8 \pm 1.6 fb^{-1}$ in the analysis.
@@ -111,7 +112,7 @@ It is required that to have at least one central large-$R$ jet of which the lead
 	\label{table:summary_event_selection}
 \end{table}
 
-\section{Systematics}
+\section{Systematic Uncertainties}
 Under construction.
 
 \section{Results of the MonoH Analysis}
@@ -124,5 +125,4 @@ Thanks to the application of the VR track jets, the object-based $E^{miss}_T$ si
 \fig[0.65][fig:result-MET-mass][!hbt]{result-MET-mass.pdf}[The distribution of $E^{miss}_T$ for the SR, including the resolved region and merged region combined. The solid histogram and the blue dashed line in the upper panel present the comparison between the data and the SM prediction after and before the fit, respectively. The expected $Z^\prime$-2HDM signal is also shown by the red dashed line. The lower panel shows the ratio of the data to the post-fit SM prediction. No significant excess is observed.]
 
 \fig[0.65][fig:result-limit][!hbt]{result-limit.pdf}[The exclusion contour of the $Z^\prime$-2HDM parameters $(m_{Z^\prime}, m_A)$ for other fixed parameter value, $tan(\beta) = 1$, $g_Z = 0.8$ and $m_\chi = 100\, \mathrm{GeV}$. The observation is consistent with the expectation within the uncertainty. The previous ATLAS result is also shown.]
-
 \end{document}
