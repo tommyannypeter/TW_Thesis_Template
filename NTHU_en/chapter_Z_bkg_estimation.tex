@@ -4,6 +4,74 @@
 
 \chapter{The Estimation of the Background of the Z Boson}
 \label{chap:Z_bkg_estimation}
-Ya.
+To estimate the $Z(\nu\nu)$ + jets background in the SR, the two-lepton CR is utilized with the fact that the momentum of $Z$ bosons doesn't rely on the decay result. After the event selection introduced in the \autoref{chap:MonoH_Analysis}, the pre-fit data versus MC distribution of the mass of the Higgs boson candidates $m_{bb}$ comparisons for the two-lepton CR are shown in \cref{fig:2-lep-prefit}. The shape uncertainty appears among the background-only MC fit to the data. The shape uncertainty is extracted by following previous $VH(bb)$ analysis\cite{Robson:2235887} and is used for two variables, $m_{bb}$ and $p^V_T$, with the boosted decision tree (BDT) method\cite{pmid28114007}. The distributions of the two variables are normalized and compared. The derived functions for the shape uncertainty are $\pm 0.2 log_{10} (p^V_T/50\, \mathrm{GeV})$ and $\pm 0.0005 (m_{jj} - 100\, \mathrm{GeV})$. The shape uncertainty and the normalized distribution of $m_{bb}$ and $p^V_T$ are shown in \cref{fig:shape-uncertainty}, providing a reasonable estimation. In the end, the post-fit results are presented in \cref{fig:2-lep-postfit}. The normalization factor is extracted in the fit and used for the $Z(\nu\nu)$ + jets background in the SR.
+
+\begin{figure}[!hbt]
+	\captionsetup[subfigure]{labelformat=empty}
+	\centering
+	\subcaptionbox
+		{$150\, \mathrm{GeV} < p^V_T < 200\, \mathrm{GeV}$
+		\label{fig:2-lep-prefit-fig1}}
+		{\includegraphics[width=0.45\linewidth]{prefit-150-200.pdf}}
+	~
+	\subcaptionbox
+		{$200\, \mathrm{GeV} < p^V_T < 350\, \mathrm{GeV}$
+		\label{fig:2-lep-prefit-fig2}}
+		{\includegraphics[width=0.45\linewidth]{prefit-200-350.pdf}}
+	\vspace{\baselineskip}
+	\subcaptionbox
+		{$350\, \mathrm{GeV} < p^V_T < 500\, \mathrm{GeV}$
+		\label{fig:2-lep-prefit-fig3}}
+		{\includegraphics[width=0.45\linewidth]{prefit-350-500.pdf}}
+	~
+	\subcaptionbox
+		{$p^V_T > 500\, \mathrm{GeV}$
+		\label{fig:2-lep-prefit-fig4}}
+		{\includegraphics[width=0.45\linewidth]{prefit-500.pdf}}
+	\caption{The pre-fit data/MC comparison of $m_{bb}$ distribution. The plots are split into four $p^V_T$ regions for fitting.}
+	\label{fig:2-lep-prefit}
+\end{figure}
+
+\begin{figure}[!hbt]
+	% \captionsetup[subfigure]{labelformat=empty}
+	\centering
+	\subcaptionbox
+	{The distribution of $m_{bb}$.
+		\label{fig:shape-uncertainty-fig1}}
+		{\includegraphics[width=0.65\linewidth]{shape-uncertainty-Mbb.pdf}}
+	\vspace{\baselineskip}
+	\subcaptionbox
+	{The distribution of $p^V_T$.
+		\label{fig:shape-uncertainty-fig2}}
+		{\includegraphics[width=0.65\linewidth]{shape-uncertainty-PTV.pdf}}
+	\caption{The shape uncertainty and the normalized distribution of $m_{bb}$ and $p^V_T$. The shape uncertainty is derived by previous $VH(bb)$ analysis and gives a reasonable estimation.}
+	\label{fig:shape-uncertainty}
+\end{figure}
+
+\begin{figure}[!hbt]
+	\captionsetup[subfigure]{labelformat=empty}
+	\centering
+	\subcaptionbox
+	{$150\, \mathrm{GeV} < p^V_T < 200\, \mathrm{GeV}$
+		\label{fig:2-lep-postfit-fig1}}
+		{\includegraphics[width=0.45\linewidth]{postfit-150-200.pdf}}
+	~
+	\subcaptionbox
+	{$200\, \mathrm{GeV} < p^V_T < 350\, \mathrm{GeV}$
+		\label{fig:2-lep-postfit-fig2}}
+		{\includegraphics[width=0.45\linewidth]{postfit-200-350.pdf}}
+	\vspace{\baselineskip}
+	\subcaptionbox
+	{$350\, \mathrm{GeV} < p^V_T < 500\, \mathrm{GeV}$
+		\label{fig:2-lep-postfit-fig3}}
+		{\includegraphics[width=0.45\linewidth]{postfit-350-500.pdf}}
+	~
+	\subcaptionbox
+	{$p^V_T > 500\, \mathrm{GeV}$
+		\label{fig:2-lep-postfit-fig4}}
+		{\includegraphics[width=0.45\linewidth]{postfit-500.pdf}}
+	\caption{The post-fit data/MC comparison of $m_{bb}$ distribution. The plots are split into four $p^V_T$ regions for fitting.}
+	\label{fig:2-lep-postfit}
+\end{figure}
 
 \end{document}
