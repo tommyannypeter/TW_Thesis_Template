@@ -23,7 +23,6 @@
         \input{titlepage}       % 封面/書名頁
         \listoftodos   % todo list, hide when set \textbackslash{}setboolean\{publish\}\{\textbf{true}\} in config.tex. It will not add to TOC , you can add \todototoc before \listoftodos to do that.
             \todoInfo{explain transverse}
-            \todoInfo{abbreviation}
             \todoInfo{eta, phi, R definition}
             \todoUnsure{Unsure}
             \todoChange{Change}
@@ -75,9 +74,9 @@
         % 原始 book class 不將 TOC,LOF,LOT 加入目錄列表，須手動加
         % 此樣板可由 config.tex 切換是否自動加入目錄
         \tableofcontents        % 目錄
-        \listoffigures          % 圖目錄
-        \listoftables           % 表目錄
-        \input{abbreviation}    % 符號說明
+%        \listoffigures          % 圖目錄
+%        \listoftables           % 表目錄
+%        \input{abbreviation}    % 符號說明
     \mainmatter
         \input{chapter_introduction}    % 緒論
         \input{chapter_atlas_detector}          % 分析方法
@@ -90,9 +89,9 @@
         % \input{chapter_template_demo}
     \backmatter          % book class 預設\backmatter 在\appendix 後面。因此.cls修改過\appendix 定義
         \input{bibliography}
-    \appendix
-        \input{appendix_device}
-        \input{appendix_solution}
-        \input{appendix_codes}
+%    \appendix
+%        \input{appendix_device}
+%        \input{appendix_solution}
+%        \input{appendix_codes}
 %         \input{appendix_letters_NCU}
 \end{document}
