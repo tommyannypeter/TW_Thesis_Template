@@ -2,19 +2,25 @@
 \begin{document}
 
 \chapter{Glossary}
-Use table for symbol list. You can also use package ``nomencl'' (simple) or ``glossaries'' (powerful). see packages document or my tutorial (but it's Chinese).
-
 \begin{table}[h]
     \normalsize
     \centering
-    \begin{tabular}{c@{\quad:\quad}l}
-%         Symbol  & Description \\ 
-        VIM     & The best guy's editor \\ 
-        Emacs   & The God's editor \\ 
-        CTAN    & Comprehensive TeX Archive Network, ctan.org \\
-        
-    \end{tabular} 
-    \caption*{Glossary} % Hide caption by comment/remove it, label will inactive also. 不想顯示請註解/刪除\caption行(\label自動失效)
+    \begin{tabularx}{1\textwidth}{ l @{\quad:\quad} X }
+    	%         Symbol  & Description \\ 
+    	DM & Dark Matter, a hypothetical matter for the explanation of the unexpected rotational speed of the galaxies. \\
+    	\hline
+    	SM & Standard Model, the theory describing three of the four known fundamental forces (the electromagnetic, weak, and strong interactions) in the universe. \\
+    	\hline
+    	LHC & Large Hadron Collider, the largest particle collider in the world nowadays, built by the European Organization for Nuclear Research (CERN). \\
+    	\hline
+    	$Z^\prime$-2HDM & The Type-II two-Higgs-doublet model with an additional U(1)$_{Z^\prime}$ gauge symmetry. \\
+    	\hline
+    	ATLAS & A Toroidal LHC ApparatuS, one of the seven particle detector experiments constructed at the LHC. \\
+    	\hline
+    	EM & The abbreviation of the electromagnet \\
+    	\hline
+    \end{tabularx} 
+%    \caption*{Glossary} % Hide caption by comment/remove it, label will inactive also. 不想顯示請註解/刪除\caption行(\label自動失效)
     \label{table:glossary_def}
 \end{table}
 
